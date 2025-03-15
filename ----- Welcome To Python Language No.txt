@@ -1,0 +1,23 @@
+----- Welcome To Python Language Notes ------ 
+
+1: Complex:  Compile code at once (c,c++,java)
+2: Interpreter: Line by line code (Python, JavaScript)
+
+3: Low Level: Directly interact with hardware, fast , difficult to understand
+4: High Level: No interact with hardware, slow but easy to read nad write.
+
+5: Python: 
+    .Easy to Learnn
+    .Interpreter Language
+    .Cross Platform
+    .Huge Library Support
+    .OOP , functional 
+    .Scalable and Fast 
+
+6: Operators: +,-,*,%,/ 
+    .arith - math calculations
+    .comparison - compare values
+    .logical-  combine
+    .assignment- assign values
+    .identity - object memory location
+    . memebership - value exist in sequence
