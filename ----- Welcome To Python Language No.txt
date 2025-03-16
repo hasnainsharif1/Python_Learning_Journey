@@ -53,3 +53,24 @@
 
     Tuples: 
         Store group of elements in single variable but not editable inmutable. () only access tuples like len(), min max(), count(), index(), sorted().
+
+8: Dictonary:
+    1..Store data in pairs (like rollno.), denoted by {}
+    key-value
+    2...1 pair -> key:value
+    3.. Ordered
+    4.. Mutable
+    5.. Dynamic
+
+        Methods:
+            ...Get: get value from Dictonary if not avilable then default value (age = project.get('age', 'not found'))
+            ...Keys: If we want to get just keys like in dictonanry we have name and its value age and its value then by keys method we get name and age
+            ...value: just like keys it will return all values
+            ...items: all values and key will provide by it.
+            ...pot: just remove any item. also deafult masg
+            ...pop Item: remove last item.
+            ...clear: Delete all items or elements.\
+
+        Dictonary Comprehension: loops in one line for small code length.
+
+        Nested Dictonary: Dictonary wih in another dictonanry
