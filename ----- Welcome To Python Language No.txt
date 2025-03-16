@@ -21,3 +21,35 @@
     .assignment- assign values
     .identity - object memory location
     . memebership - value exist in sequence
+
+7:List and Tuples:
+    List: Store group of elements in single     variable. Which we can edit as well. Mutable. [],(()), slicing usded for changing more elements in a variable list.
+        .Copy()
+        .alisa()
+        .in, not in (memebership)
+        .update,repeat
+
+        Methods:
+            ..Append: used for add elements in list append()
+            ..Extend: join two variables elements extend()
+            ..Insert: Add element in where ever you want insert()
+            ..Remove: Remove any element (no index) remove()
+            ..pop: remove element using index pop()
+            ..Clear: Clear all elements in variable or list clear()
+            ..Index: know any element index can find index()
+            ..Count: count any element in list count()
+            ..Sort: small to large sort()
+            ..Reverse: last to start reverse()
+        
+        Finding:
+            ..min: find minimum element in list min()
+            ..max: find maxmium element in list max()
+            ..Common: set a and set b then intersection like (s1.intersection(s2))
+        
+        Range: start,stop,step 1,100,2 (2 is gap)
+
+        Compresion List: 
+            large loops in one line like [expression for item in iterable] [i ** 2 for i in range(1,11)] also add if condition's
+
+    Tuples: 
+        Store group of elements in single variable but not editable inmutable. () only access tuples like len(), min max(), count(), index(), sorted().
