@@ -1,4 +1,5 @@
 import os
+import time
 
 Student_data_list = []
 
@@ -19,7 +20,7 @@ while True:
     user_input = int(input("Enter Your Choice: "))
 
     if user_input == 1:
-        static_interface()
+        # static_interface()
         std_dict = {}
         roll_no = int(input("Enter Roll Number: "))
         name = str(input('Enter Student Name: '))
@@ -34,7 +35,7 @@ while True:
         print("Student Data Added Successfully!")
         print(Student_data_list)
     elif user_input == 2:
-        std_id = int(input("Enter Student Id Or Name: "))
+        std_id = int(input("Enter Student Id: "))
         found = False
 
         for student in Student_data_list:
@@ -65,4 +66,56 @@ while True:
                 break
         if found == False:
             print("Student Not Found!")
+    elif user_input == 4:
+        if Student_data_list: 
+            print("{:<10} {:<10} {:<10} {:<10}".format("Name", "Roll no", "Age", "Grades"))
+
+            for student in Student_data_list:
+                print("{:<10} {:<10} {:<10} {:<10}".format(
+                    student.get("name" , 'N/A'),
+                    student.get("roll_no" , 'N/A'),
+                    student.get("age" , 'N/A'),
+                    student.get("grades" , 'N/A')
+                ))
+        else:
+            print("No Record Found!")
+        
+        input("\nPress Enter to continue...")
+    elif user_input == 5:
+        print("Press 1 for Higest\nPress 2 for lowest\nPress 3 for continue...\n")
+        value = int(input("Enter value: "))
+        
+        if value == 1:
+            result = 0 
+            for student in Student_data_list:
+                result = student.get("grades")
+                if result > student.get("grades"):
+                    result = student.get("gradaes")
+            print(f"Higest Grades is {result}")
+        input("\nPress Enter to continue...")
+    elif user_input == 6:
+        std_id = int(input("Enter Student Id Or Name: "))
+        found = False
+
+        for student in Student_data_list:
+            if student.get('roll_no') == std_id:
+                print("{:<10} {:<10} {:<10} {:<10}".format("Name", "Roll no", "Age", "Grades"))
+
+                print("{:<10} {:<10} {:<10} {:<10}".format(
+                    student.get("name" , 'N/A'),
+                    student.get("roll_no" , 'N/A'),
+                    student.get("age" , 'N/A'),
+                    student.get("grades" , 'N/A')
+                ))
+                found = True
+                break
+        if found == False:
+            print("Student Not Found!")
+        input("\nPress Enter to continue...")
+    elif user_input == 7:
+        print("Good bye!")
+        time.sleep(3) #sleep for 2 second 
+        break
+    else :
+        print("Enter Valid Number!")
         
