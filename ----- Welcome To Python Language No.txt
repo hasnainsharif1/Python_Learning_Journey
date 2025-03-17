@@ -74,3 +74,37 @@
         Dictonary Comprehension: loops in one line for small code length.
 
         Nested Dictonary: Dictonary wih in another dictonanry
+
+9: Function's:
+    ..Reusablility
+    ..Modularity
+    ..Scoping
+
+    ....function naming 
+    ....length of function
+    ....avoid global variables
+
+        -Parameters and argumnets: placeholder for the values , argumnets are actula values
+        e.g def great(name): # name - Parameters
+                print('Hi, name)
+            great("Hasnain) #Hasnain - arguments
+        
+        -arguments:
+            ..positional argument: your arguments or Parameters position must be correct
+            ..Key words argument: assign value with Parameters like greet(name = "hasnin)
+            ..default argument: asing value at Parameters position for default value 
+        
+        - return: store calling function into a variable for result coming form the main function
+
+    ..Decorator's: Add function into a function without chnaging the original function code, like if i order burger then ask for cheese on it now cheese is the new feature but burger as it same. 
+    Usecase: @function_name
+
+    ..Generator: using yield keyword to access only one memory or variable or value
+
+        Difference decorator and generator:
+            --Decorator used to modifiy, enhance function without changing actual code of the function e.g(simple_Mobile , wrap_mobile)
+            --Generator: generate sequence over a time
+            operate once on one value
+    
+    ..Lembda (lmd): anonymous function, send only one expression (keep it simple, use for basic functionality)
+    syntax: lambda argument:expression conditon
