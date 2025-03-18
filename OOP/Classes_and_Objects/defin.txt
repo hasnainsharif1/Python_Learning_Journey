@@ -1,0 +1,12 @@
+a class is a blueprint or template for creating objetcs.
+
+map - class
+house - object
+
+-class is just blueprint or handdraw may be any thing like house car anything
+-on the other hand objects are the actual data or actual thing like house car when it will ready in real.
+
+-----------------------------
+Self - Its reffer to the specific calling method. Object
+    1. Always use self to store properties inside an object
+    2. Without self no varibles will store in object

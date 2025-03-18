@@ -108,3 +108,42 @@
     
     ..Lembda (lmd): anonymous function, send only one expression (keep it simple, use for basic functionality)
     syntax: lambda argument:expression conditon
+
+10:Object Oriented Programming:
+    -Problem's: 
+        -Code duplication
+        -Code maintainence
+        -Data security issues
+        -Poore code reusebility
+        -No reeal world representation
+    
+    ---It group data and behaviour into objects
+
+    --OOP Concepts:
+        1- Classes & Objects
+        2- Inheritace
+        3- Encapsulation
+        4- Abstraction
+        5- Polymorphism
+    
+        1: Classes and Objects: 
+            """
+                a class is a blueprint or template for creating objetcs.
+
+                map - class
+                house - object
+
+                -class is just blueprint or handdraw may be any thing like house car anything
+                -on the other hand objects are the actual data or actual thing like house car when it will ready in real.
+
+                -----------------------------
+                Self - Its reffer to the specific calling method. Object
+                    1. Always use self to store properties inside an object
+                    2. Without self no varibles will store in object
+            """
+            """
+                Constructor:
+                    1 - Deafult Constructor (self)
+                    2 - Parameterized Constructor (Self, name, age)
+                    3 - Constructor with deafult values (slef, name="hasnain")
+            """
