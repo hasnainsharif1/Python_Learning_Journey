@@ -147,3 +147,8 @@
                     2 - Parameterized Constructor (Self, name, age)
                     3 - Constructor with deafult values (slef, name="hasnain")
             """
+        
+        2: Polymorphism: 
+                In the context of object-oriented programming, polymorphism means "many forms" and allows objects of different classes to be treated as objects of a common type, enabling them to respond to the same method call in different ways
+
+                one thing which work in different environment
