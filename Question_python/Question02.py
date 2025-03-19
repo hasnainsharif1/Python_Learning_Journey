@@ -12,4 +12,4 @@ def index_number(s):
         
     return -1
 
-print(index_number('aasnain'))
+print(index_number('Hasnain'))
