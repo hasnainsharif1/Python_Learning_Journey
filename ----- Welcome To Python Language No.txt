@@ -149,6 +149,46 @@
             """
         
         2: Polymorphism: 
-                In the context of object-oriented programming, polymorphism means "many forms" and allows objects of different classes to be treated as objects of a common type, enabling them to respond to the same method call in different ways
+            In the context of object-oriented programming, polymorphism means "many forms" and allows objects of different classes to be treated as objects of a common type, enabling them to respond to the same method call in different ways
 
-                one thing which work in different environment
+            one thing which work in different environment
+            
+        3: Encapsulation:
+            -Control access of any class. public and private variables or Parameters
+            -Hide the private values within the class for limited acces.
+            -Unable to access its private attributes.
+            
+        4: Inheritace: 
+            -Basically access all parents class methods or attributes in child class by just passing class name.
+            -Reusebility of parent class code in child class.
+
+        5: Abstraction: 
+            Hide the complex details for user.
+            1. Unnecessary details Hide
+            2. Abstraction classes is used as blueprints
+            3. Child classes must define abstract classes.
+        
+        Cheat Sheet for OOP:
+            """
+                OOP Cheat Sheet
+                📌 Classes & Objects
+
+                Class → Blueprint for creating objects
+                Object → Instance of a class
+                📌 Encapsulation (🔒 Data Hiding)
+
+                Wrap data & methods into a single unit (class)
+                Use private variables (__var) & getter/setter methods
+                📌 Abstraction (🎭 Hide Details)
+
+                Show only essential features, hide complex logic
+                Use abstract classes & interfaces
+                📌 Inheritance (📥 Code Reusability)
+
+                Child class inherits properties & behavior from parent
+                Types: Single, Multiple, Multilevel, Hierarchical
+                📌 Polymorphism (🔄 Many Forms)
+
+                Method Overloading → Same function, different parameters
+                Method Overriding → Child class changes parent method
+            """
