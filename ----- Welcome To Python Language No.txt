@@ -171,24 +171,39 @@
         Cheat Sheet for OOP:
             """
                 OOP Cheat Sheet
-                📌 Classes & Objects
 
+                 Classes & Objects
                 Class → Blueprint for creating objects
                 Object → Instance of a class
-                📌 Encapsulation (🔒 Data Hiding)
 
+                 Encapsulation (🔒 Data Hiding)
                 Wrap data & methods into a single unit (class)
                 Use private variables (__var) & getter/setter methods
-                📌 Abstraction (🎭 Hide Details)
 
+                📌 Abstraction (🎭 Hide Details)
                 Show only essential features, hide complex logic
                 Use abstract classes & interfaces
-                📌 Inheritance (📥 Code Reusability)
 
+                📌 Inheritance (📥 Code Reusability)
                 Child class inherits properties & behavior from parent
                 Types: Single, Multiple, Multilevel, Hierarchical
-                📌 Polymorphism (🔄 Many Forms)
 
+                📌 Polymorphism (🔄 Many Forms)
                 Method Overloading → Same function, different parameters
                 Method Overriding → Child class changes parent method
             """
+        
+
+11: Exception Handling:
+        Error: It occure when your program don't work.
+            1. Compile Error (Before Run the code.)
+            2. Runtime Error (In between error while running)
+            3. Logical Error (Not giving execpted output)
+        
+        Exception: Start Running, warning sign, catch and handle.
+
+            try-Except
+        1-try- code error
+        2-except (run when error occur)
+        3- Finally block (always run)
+        4- Nested try,except,final

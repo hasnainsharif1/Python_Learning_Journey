@@ -1,0 +1,19 @@
+file handling:
+ 1- read()
+ 2- write()
+ 3-open()
+ 4- close()
+ 5- with open('file_path', 'w') as file:
+        content = etc................
+    
+Python provides various modes to open a file, which define how we can interact with the file. Below is a detailed explanation of each mode:
+
+Mode	Description	Creates File (If not exists)?	Overwrites Existing Data?
+----'r'	Read mode - Opens a file for reading only.	❌ No	❌ No
+----'w'	Write mode - Opens a file for writing. If the file exists, it is overwritten.	✅ Yes	✅ Yes
+----''a'	Append mode - Opens a file for writing, but data is added at the end.	✅ Yes	❌ No
+----''x'	Exclusive creation mode - Creates a file but fails if it already exists.	✅ Yes	❌ No
+----''r+'	Read & Write mode - Opens a file for both reading and writing.	❌ No	✅ Yes
+----''w+'	Write & Read mode - Opens a file for both reading and writing, but it overwrites if the file exists.	✅ Yes	✅ Yes
+----''a+'	Append & Read mode - Opens a file for reading and appending, preserving existing data.	✅ Yes	❌ No
+----''x+'	Exclusive creation mode with read and write - Creates a new file but fails if it exists.	✅ Yes	❌ No
